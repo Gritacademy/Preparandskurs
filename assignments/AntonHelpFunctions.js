@@ -1,4 +1,0 @@
-function charRemove(myChar,myText){
-
-
-}
