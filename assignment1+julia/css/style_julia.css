@@ -1,0 +1,18 @@
+h1 {
+    color: rgb(105, 128, 232);
+    font-style: oblique;
+}
+
+p {
+    color: rgb(105, 128, 232);
+    font-style: normal;
+}
+
+img {
+    border: 1px solid red;
+
+}
+
+button {
+    border-color: rgb(237, 241, 110);
+}
