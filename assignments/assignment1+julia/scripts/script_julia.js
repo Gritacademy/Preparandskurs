@@ -12,7 +12,7 @@ console.log(foo)
 let bar // andra veriabeln
 bar = 0
 console.log(bar)
-
+// ni ska ha en foo/bar också
 function logtest(text) {
     console.log(text)
 }

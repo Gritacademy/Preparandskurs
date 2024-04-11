@@ -1,9 +1,9 @@
 let age = 17;
 let vip = true;
 
-if (vip == true) {
+if (vip == true) { // tekniskt sätt funkar det utan vip == true
   alert("Welcome in my best VIP customer :)");
-}
+} // ni glömde else här
 if (age >= 18) {
   alert("Access granted");
 } else {

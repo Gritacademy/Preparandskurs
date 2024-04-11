@@ -18,7 +18,7 @@ console.log(foo/bar)
 
 function test()
 {
-    if(type==Number){
+    if(type==Number){ // använd isNaN()
 alert("You cant divide us");
     }
 }

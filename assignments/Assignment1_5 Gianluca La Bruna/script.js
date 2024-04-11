@@ -7,7 +7,7 @@ if (age >= 18) {
   alert("Access denied");
 }
 
-if (vip) {
+if (vip) { // denna ska vara först sedan är det else på denna
   alert("Welcome in my best VIP customer :)");
 }
 
