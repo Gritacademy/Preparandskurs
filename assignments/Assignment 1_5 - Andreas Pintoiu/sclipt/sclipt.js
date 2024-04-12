@@ -1,6 +1,14 @@
 let vip = true;
 let age = 18;
 
+if(vip)
+alert("Welcome in my best VIP customer >:)");
+else if( age >=18)
+alert("Access granted");
+else
+alert("Access denied");
+
+/* 
 if (age >= 18 && vip == false) {
   console.log("vuxen");
   alert("Access granted");
@@ -20,3 +28,4 @@ if (age >= 18 && vip == true) {
   console.log('vuxen vip');
   alert("Welcome in my best VIP customer >:)");
 }
+ */
