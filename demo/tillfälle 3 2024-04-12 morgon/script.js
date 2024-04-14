@@ -10,12 +10,16 @@ array[3] = 'Mitar'; // lägg in element
 console.log(array);
 
 array.push(123456); // lägg in element på slutet
+console.log(array);
 
 array.unshift('HEJSAN'); // lägg in element i början
+console.log(array);
 
 array.pop(); //tarbort på slutet
+console.log(array);
 
 array.shift(); //tarbort från början
+console.log(array);
 
 console.log(array); // få ut siffran för längden/antal element i arrayen
 
@@ -59,7 +63,7 @@ console.log('vidare....');
 // index      0             1        2      3         4 
 let queue = ["Gianluca","Mitar","Mortaza","Andrei","Alrik"]
 
-queue.shift()
+queue.shift() 
 
 for (let i = 0;   i < 5;    i = i + 1 ) {
    document.write(queue[i] +' är på köplats ' + (1+i)+ "<br>" ); // curlybrackets/crulparentess behövs ej vi 1 commando kod
