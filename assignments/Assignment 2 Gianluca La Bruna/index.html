@@ -9,21 +9,25 @@
   <body>
     <script>
       //Part 2a of the assignment: ODD LOOP
-
-      for (i = 0; i < 10; i = i + 1) {
+      let resultat=""
+      for (let i = 0; i < 10; i = i + 1) {
         if (i % 2 == 0) {
           if (i == 4) {
             document.write("Q");
             console.log("Q");
+            resultat += "Q"
           } else {
             document.write("O");
             console.log("O");
+            resultat += "O"
           }
         } else {
           document.write("X");
           console.log("X");
+          resultat += "X" // appeandar char till stringen för varje loop
         }
       }
+      console.log(resultat);
     </script>
   </body>
 </html>
