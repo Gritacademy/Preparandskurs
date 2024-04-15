@@ -7,15 +7,15 @@
   </head>
   <body>
     <script>
-      let chars = [];
-      for (let i = 0; i < 10; i++) {
-        if (i === 5) {
+      let chars = []; // array
+      for (let i = 0; i < 10; i++) 
+        if (i === 5) 
           chars.push("Q");
-        } else {
-          chars.push(i % 2 == 1 ? "X" : "O");
-        }
-      }
-      console.log(chars.join(""));
+         else 
+          chars.push(i % 2 == 1 ? "X" : "O"); //tenorary operator  (condition) ? för true: för false 
+          // 
+      
+      console.log(chars.join("")); // sätter i hop array till en vanlig string
     </script>
   </body>
 </html>

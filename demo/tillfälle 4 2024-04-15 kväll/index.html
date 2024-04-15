@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="script.js" defer></script>
+        <style>
+            button {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                border-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="number" name="" id="tal1" />
+        <input type="number" name="" id="tal2" />
+        <button
+            onclick="
+        addition(
+            parseInt(document.getElementById('tal1').value)
+            ,
+            parseInt(document.getElementById('tal2').value)
+            )"
+        >
+            +
+        </button>
+        <button id="minusBtn">-</button>
+        <button id="multiBtn">*</button>
+        <button id="diviBtn">/</button>
+    </body>
+</html>

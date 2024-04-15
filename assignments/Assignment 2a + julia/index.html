@@ -8,17 +8,17 @@
 
   <body>
     <script>
-      for (let i = 1; i <= 10; i++) {
-        let even = i % 2 == 0;
+      for (let i = 1; i <= 10; i++) // utan { curly bracket}
+       // let even = i % 2 == 0;
 
-        if (even) {
+        if ( i % 2 == 0 )  // för jämnt tal
           console.log("X");
-        } else if (i == 5) {
+         else if (i == 5) 
           console.log("Q");
-        } else {
+         else 
           console.log("O");
-        }
-      }
+        
+      
     </script>
   </body>
 </html>
