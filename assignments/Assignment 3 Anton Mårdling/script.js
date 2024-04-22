@@ -3,5 +3,10 @@ let cat ={
     name:"Gustav"
 }
 function displayname (){
-    alert (cat.name)
+    
+    if(Math.random() < 0.5 )
+        alert (cat.name +" heter katten & är alive true"  ) 
+    else
+        alert (cat.name +" heter katten & är alive false" ) 
+
 }

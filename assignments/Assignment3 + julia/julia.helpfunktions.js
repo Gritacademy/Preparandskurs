@@ -1,7 +1,7 @@
 // definera
  function charRemove (char , text) {
     console.log(char , text);
-    return text.replace(char , "")
+    return text.replaceAll(char , "")
  }
 
 // anrop

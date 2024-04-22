@@ -8,4 +8,8 @@ let cat = {
 
 function displayCatsName () {
     alert(cat.name);
+    //math.random()  < 0.5
+    // if sats
+
+
 }
