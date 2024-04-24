@@ -1,3 +1,4 @@
+/*
 let foo = 0;
 let bar = 0;
 
@@ -21,3 +22,18 @@ document.getElementById("divideButton").addEventListener("click", function() {
         console.log("Result:", result);
     }
 });
+ */
+
+function divideNumbers() {
+    let foo = 0
+    let bar = 0
+    foo = parseInt(document.getElementById('number1').value)
+    bar = parseInt(document.getElementById('number2').value)
+    let result = foo / bar
+    if (isNaN(result)) 
+        alert("You can't divide us!")
+    else 
+        console.log('Result:', result)
+}
+
+document.getElementById('divideButton').addEventListener('click', divideNumbers)
