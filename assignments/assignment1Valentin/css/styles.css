@@ -1,0 +1,27 @@
+h1{
+    color: dimgray;
+}
+.selection1 {
+    border: 5px groove black;
+    background-color: darkgray;
+    
+  }
+  section {
+    border: dotted gray;
+  }
+  button{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+  p{
+    color: white;
+    font-family: sans-serif;
+  }
+  h2 {
+    color: dimgray;
+  }
+  .bordered-image {
+    border: 2px solid red;
+}
