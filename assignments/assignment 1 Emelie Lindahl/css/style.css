@@ -1,0 +1,26 @@
+body {
+    background-color: moccasin;
+}
+
+h1 {
+    color: coral;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(249, 64, 85);
+    font-size: 40px;
+    font-style: italic;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    border-radius: 2dvb;
+    border-width: 20px;
+    border-color: red;
+    border-style:groove;
+}
