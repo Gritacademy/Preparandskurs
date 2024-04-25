@@ -3,13 +3,19 @@ document.getElementById("enterBtn").addEventListener("click", function() {
     age = parseInt(document.getElementById("age").value)
     vip = document.getElementById("vip").checked
 
-    if(age >=18){
+/*     if(age >=18){
         alert("Access granted")
         if(vip){
             alert("Welcome in my best VIP customer :")
         }
     }else{
         alert("Access denied")
+    } */
+    if(vip){
+        alert("Welcome in my best VIP customer :")
+    }else if(age >=18){
+        alert("Access granted")
+    } else {
+        alert("Access denied")
     }
-
 });
