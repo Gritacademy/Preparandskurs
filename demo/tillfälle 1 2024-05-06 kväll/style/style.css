@@ -1,0 +1,15 @@
+h1:hover{
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+h1{
+/* border: 2px dashed red;*/
+}
+
+
+p {
+    background-color: aquamarine;
+}
