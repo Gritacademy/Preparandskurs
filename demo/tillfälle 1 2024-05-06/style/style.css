@@ -1,0 +1,14 @@
+h1{
+    /*  color:red;  */
+}
+h2 {
+    font-style: italic;
+    background-color: rgb(197, 197, 224);
+    margin-left: 50px;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: green;
+    border-style: dotted;
+}
