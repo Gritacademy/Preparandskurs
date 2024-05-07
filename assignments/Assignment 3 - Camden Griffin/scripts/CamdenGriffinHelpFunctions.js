@@ -6,7 +6,7 @@ document.getElementById("resultBtn").addEventListener("click", () => {
     document.getElementById("result").textContent = "Result: " + result;
 });
 
-function charRemove(character, text) {
+function charRemove(character, text) { // kollar string
     if (typeof character !== "string" || typeof text !== "string") {
         console.error("Wrong datatype");
         return;
