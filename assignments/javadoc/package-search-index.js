@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"com.gritacademy.annotations","l":"com.gritacademy.annotations"}];updateSearchResults();
