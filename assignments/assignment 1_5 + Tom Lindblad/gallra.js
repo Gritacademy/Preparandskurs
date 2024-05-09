@@ -2,8 +2,8 @@
 
 function checkAge()
 { 
-    vip = document.getElementById("vip").checked   //Jävla piss checkbox ska vara .checked
-    age = document.getElementById("age").value
+    let vip = document.getElementById("vip").checked   //Jävla piss checkbox ska vara .checked
+    let age = document.getElementById("age").value
     
     if(vip)alert("Welcome in my best VIP customer :)")   
     else if(age >= 18)alert("Access granted")   
