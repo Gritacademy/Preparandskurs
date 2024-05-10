@@ -1,6 +1,18 @@
 let vip = true
 let age = 17
-if (age >=17)  (vip == true)
+
+
+if(vip == true)   
+    alert("Welcome in my best VIP customer")
+else if(age >= 18)
+    alert("Acces granted")
+else
+    alert("Acces denied")
+
+    
+
+
+/* if (age >=17)  (vip == true)
     {console.log ("Acces granted")}
     {console.log ("Acces denied")}
 
@@ -26,4 +38,4 @@ else if (age >= 18)
     { alert("Access granted")}
 
 else 
-    { alert("Access denied")}
+    { alert("Access denied")} */
