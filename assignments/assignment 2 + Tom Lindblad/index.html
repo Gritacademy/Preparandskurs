@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Part 2A : ODD LOOP
+
+            let xoxo = []            
+
+        for (let i = 0; i < 10; i++) {
+
+            if (i == 4){
+                xoxo += ('Q')
+            }
+
+            else if(i%2 == 1){
+                xoxo += ('X')
+            }
+
+            else{
+                xoxo +=('O')
+            }
+        }
+
+        console.log(xoxo)   
+
+        // Part 2B : ODDER LOOPS
+
+        let oCount = 1
+        let oddLoop = "O"
+
+        while (oCount < 20) {
+
+            let space = Math.floor((Math.random() * 5 + 1))
+
+            for (let i = 0; i < space; i++) {
+                oddLoop += (" ")
+            }
+
+            oddLoop += ("O")            
+            oCount++    
+        }
+
+        console.log(oddLoop)
+
+        //Part 2C
+
+        cityNames = ["kiruna","uppsala","malmo","gothenburg","stockholm"];
+        cityNames = cityNames.map(word => word.charAt(0).toUpperCase() + word.slice(1))
+
+        cityNames.forEach(city => {
+
+            Array.from(city).forEach(character =>{
+
+                    console.log(character);
+                    document.write(character+ "<br>")
+            })
+        });
+    </script>
+</body>
+</html>
