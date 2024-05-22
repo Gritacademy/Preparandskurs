@@ -1,0 +1,16 @@
+h1 {
+   /*  color: red; */
+}
+
+h2{
+    font-style: italic;
+    margin-left: 50px;
+}
+
+p{
+    border-color: green;
+    border-width: 5px;
+    border-style: dashed;
+    padding: 10px;
+}
+
