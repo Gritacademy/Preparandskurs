@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>SYSTEMBOLAGET OFFICAL SIDA</h1>
+        <label for="">age:</label>
+        <input id="inputAge" type="number" value="123">
+        <input id="inputVip" type="checkbox" checked="true">
+        <button onclick=" 
+            let age = document.getElementById('inputAge').valueAsNumber;
+            if( age>=20)
+                alert( 'du är vuxen nog för systemet!' )  
+            else 
+                alert('du är för ung!!!!')
+        ">  check age!!! </button>
+    </body>
+</html>
