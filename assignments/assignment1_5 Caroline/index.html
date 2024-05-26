@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>The club</h1>
+    <label for="">Age</label>
+    <input id="inputAge" type = "number" value ="16">
+    <button onclick="
+       let age = document.getElementById('inputAge').valueAsNumber;
+   if(age>=18)
+       alert('access granted' ) 
+    else
+    alert ('access denied')
+    "> check age </button>
+    
+    <br>
+    
+    
+
+        <label for="">vip</label> 
+        <input id="inputVIP" type = "checkbox" checked = "true">
+        <button onclick="
+           let vip = document.getElementById('inputVIP').checked
+           
+       if(vip>== true)
+           alert('welcome my best VIP customer')  
+        else
+        if (age >=18)
+        alert ('access granted')
+    else alert ('Acess denied')
+        "
+        id="enterBtn"> check </button>
+       
+        <button>enter moriska paviljongen</button>
+</body>
+</html>
