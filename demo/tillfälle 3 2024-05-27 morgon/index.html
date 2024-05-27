@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div id="container"></div>
+    <input type="text" id="inputName">
+    <button onclick="
+    // rensa container med namnen
+    document.getElementById('container').innerHTML = ''
+
+    //pusha in ett nytt namn från input
+    queue.push(document.getElementById('inputName').value )
+
+    //loopar igenom arrayen och displayar på innerhtml på containern
+    let i = 0
+    while ( i < queue.length) {
+        document.getElementById('container').innerHTML +=
+        queue[i]+ ' är på köplats: '+ (i+1) +' <br>'
+        i++
+    } 
+    "> lägg till mig till väntelistan</button>
+    <button onclick=" deleteFromQueue() "> tabort först i kö</button>
+</body>
+
+
+</html>
