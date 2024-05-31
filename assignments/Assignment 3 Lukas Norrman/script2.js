@@ -8,12 +8,12 @@ cat = {
 }
 
 function myFunction (){
-   
-    if (randomBool >= 0.5) {
+    //randomBool = Math.random() >= 0.5; 
+    if (Math.random() >= 0.5) 
         alert(cat.name + " is dead")
-    } else {
+     else 
         alert(cat.name + " is alive")
-    }
+    
 }
 
 
