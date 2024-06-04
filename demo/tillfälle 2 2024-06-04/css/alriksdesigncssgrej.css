@@ -1,0 +1,19 @@
+img {
+    width: 400px;
+    height: 300px;
+    border-color: red;
+    border-width: 50px;
+    border-style: dotted;
+}
+
+p{
+    float:left
+}
+
+button{
+
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+}
