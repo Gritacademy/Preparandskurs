@@ -1,0 +1,9 @@
+img {
+    width: 400px;
+    height: 300px;
+    border-color: red;
+    border-width: 5px;
+    border-style: dotted;
+}
+p{ float:left;
+}
