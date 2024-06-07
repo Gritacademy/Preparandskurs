@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script>
+
+            //6) funktioner 
+
+            let lauri = 5 //skapa/deklarera variabel
+            lauri = 29 // tilldelar värdet 29 till variabeln lauri
+            function alrik( para1, para2 ) {  // skapa/definera en funktion test
+                para1 = 0
+                para2 = 1
+                console.log(para1 + para2)
+                console.log("HEJSAN!!")
+            }   
+             
+         
+            alrik() // kör/anropa/kalla funktionen test 
+             
+            //alert(123)
+
+
+            // assignment 2a
+            console.log('------------2a------------')
+
+            // 1 start kod/körs 1 gång ;
+            // 2 condition/bestämmer om repetera eller avsluta;
+            // 3 förändras/kod som repeteras, koden körs på slutet
+
+            // 1 deklarerar en variabel;
+            // 2 condition range;
+            // 3 varibeln förändras för att kunna avsluta loopen
+            let foo = 0
+            foo = 1
+            
+            for (let i = 1; i <= 10; i = i + 1) {
+                /*        if(i == 1) console.log("O");
+            if(i == 2) console.log("X");
+            if(i == 3) console.log("O");
+            if(i == 4) console.log("X");
+            if(i == 5) console.log("O");
+            if(i == 6) console.log("X");
+            if(i == 7) console.log("O");
+            if(i == 8) console.log("X");
+            if(i == 9) console.log("O");
+            if(i == 10) console.log("X"); */
+                if (i % 2 == 0) console.log('X') // jämn
+                //  if( i % 2 == 1) console.log("O"); // jämn
+                else console.log('O') // udda
+
+                console.log(i % 2 == 0 ? 'X' : 'O') // tenarary operator
+                //console.log(i);
+            }
+
+            console.log('------------2b------------')
+            // assignment 2b
+            for (let i = 0; i < 20; i++) {
+                let randomTal = Math.random() // generera ett slumptal (från 0 till 1 med inte bara 1)
+                let randomTalFastStorre = randomTal * 5 // multiplicera talet med 5 för att ha samma storlek som uppgiften säger
+                let avrundadTal = Math.floor(randomTalFastStorre) // avrunda till lägst heltalet
+                let antalMellanrum = avrundadTal + 1
+                //let antalMellanrum = Math.floor(Math.random() * 5 ) + 1
+                //console.log(antalMellanrum)
+                /*    
+                for (let x = 0; x <antalMellanrum; x++) {
+                    document.write("-")
+                }
+                */
+                document.write('-'.repeat(antalMellanrum))
+
+                document.write('O')
+            }
+            console.log('------------2c------------')
+          let cityname = ['kiruna','uppsala','malmo','gothemburg','stockholm']
+
+            for (let i = 0; i < cityname.length; i++) {
+                let city = cityname[i]
+                console.log(city) ;
+                for (let i = 0; i < city.length; i++) {
+                    console.log(city[i]);
+                }
+            } 
+
+          /*   let city = "malmö"  //strings är som en array
+            for (let i = 0; i < city.length; i++) {
+              console.log(city[i]);
+            } */
+            
+            // assignment 2c
+        </script>
+    </head>
+    <body></body>
+</html>
