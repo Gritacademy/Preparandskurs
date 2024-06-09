@@ -1,0 +1,15 @@
+h1 {
+  color: black;
+}
+
+h2 {
+  color: rgb(65, 130, 125);
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  border-color: red;
+  border-width: 10px;
+  border-style: dashed;
+}
