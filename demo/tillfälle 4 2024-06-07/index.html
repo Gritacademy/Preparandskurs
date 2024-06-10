@@ -37,22 +37,12 @@
             foo = 1
             
             for (let i = 1; i <= 10; i = i + 1) {
-                /*        if(i == 1) console.log("O");
-            if(i == 2) console.log("X");
-            if(i == 3) console.log("O");
-            if(i == 4) console.log("X");
-            if(i == 5) console.log("O");
-            if(i == 6) console.log("X");
-            if(i == 7) console.log("O");
-            if(i == 8) console.log("X");
-            if(i == 9) console.log("O");
-            if(i == 10) console.log("X"); */
-                if (i % 2 == 0) console.log('X') // jämn
-                //  if( i % 2 == 1) console.log("O"); // jämn
-                else console.log('O') // udda
+        
+                if (i % 2 == 0) console.log('X'); 
+                
+                else console.log('O');
 
-                console.log(i % 2 == 0 ? 'X' : 'O') // tenarary operator
-                //console.log(i);
+       
             }
 
             console.log('------------2b------------')
@@ -69,10 +59,11 @@
                     document.write("-")
                 }
                 */
-                document.write('-'.repeat(antalMellanrum))
+                document.write('&nbsp;'.repeat(antalMellanrum))
 
                 document.write('O')
             }
+            
             console.log('------------2c------------')
           let cityname = ['kiruna','uppsala','malmo','gothemburg','stockholm']
 
