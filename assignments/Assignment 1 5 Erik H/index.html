@@ -17,7 +17,22 @@
         
         <p></p>
         <button id= "enterBtn" > Enter Moriska Paviljongen </button>
+        <button onclick=" 
+          var age = parseInt(ageInput.value);
+            var vip = vipCheckbox.checked;
+
+            if (vip == true) {
+               alert('Welcome my best VIP customer :) ');
+            } else {
+               if (age >= 18) {
+                  alert('Access granted');
+               } else {
+                  alert('Access denied');
+               }
+            }
         
+        " id= "enterBtn" > Enter Moriska Paviljongen 2</button>
+
      </body>
      <script src="scripts/club.js"></script>
 </html>
