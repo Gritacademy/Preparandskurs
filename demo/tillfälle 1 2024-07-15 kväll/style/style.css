@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+}
