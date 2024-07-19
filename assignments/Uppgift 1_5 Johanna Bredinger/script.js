@@ -4,14 +4,14 @@ let vip = false;
 const myAge = document.getElementById("myAge")
 const enterBtn = document.getElementById("enterBtn")
 const ageElement = document.getElementById("ageElement")
-const myVIP = document.getElementById("vipElement")
+const myVIP = document.getElementById("myVIP")
 
 
 enterBtn.onclick = function(){
     age = myAge.value;
     age = Number(age);
-
-    if(myVIP.ariaChecked){
+    console.log(age,myVIP.checked);
+    if(myVIP.checked){
         ageElement.numberContent = alert("Welcome in my best VIP custoner :)");
     }
     else if (age >= 18){

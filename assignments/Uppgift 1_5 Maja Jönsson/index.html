@@ -12,7 +12,18 @@
     <label for="VIP">VIP:</label>
     <input type="checkbox" id="myVip" checked>
 
-    <button type="submit" id="enterBtn">Enter Moriska Paviljongen</button>
+    <button onclick="
+    
+    age = myAge.value;
+    age = Number(age);
+
+    if(myVip.checked)
+        vipElement.numberContent = alert('Welcome in my best VIP customer :')
+    else if (age >= 18)
+            ageElement.numberContent = alert('Acess granted')
+    else
+        ageElement.numberContent = alert('Acess denied')
+    " type="submit" id="enterBtn">Enter Moriska Paviljongen</button>
     <p id="ageElement"></p>
     <p id="vipElement"></p>
 

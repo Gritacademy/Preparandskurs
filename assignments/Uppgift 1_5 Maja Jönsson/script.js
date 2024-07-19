@@ -10,15 +10,13 @@ enterBtn.onclick = function(){
     age = myAge.value;
     age = Number(age);
 
-    if(myVip.checked){
+    if(myVip.checked)
         vipElement.numberContent = alert("Welcome in my best VIP customer :)");
-    }
-    else if (age >= 18){
+    else if (age >= 18)
             ageElement.numberContent = alert("Acess granted");
-    }
-    else{
+    else
         ageElement.numberContent = alert("Acess denied");
-    }
+    
 }
 
 
