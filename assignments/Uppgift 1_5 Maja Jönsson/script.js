@@ -1,5 +1,3 @@
-let vip = false;
-
 const myAge = document.getElementById("myAge");
 const enterBtn = document.getElementById("enterBtn");
 const ageElement = document.getElementById("ageElement");
