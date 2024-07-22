@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            /*  for (let i = 0; i < 9; i+=2) {
+            console.log(i);
+            console.log(i+1 +(" O"));
+            console.log(i+2 +(" X"));
+        } */
+
+            /*             for (let i = 0; i < 10; i += 1) {
+                if (i % 2 == 0) 
+                    console.log('O')
+                else 
+                    console.log('X')
+            } */
+            for (let i = 0; i < 10; i++) console.log(i % 2 == 0 ? 'O' : 'X')
+
+            let cityNames = ['malmö', 'kiruna', 'stockholm', 'växjö']
+            for (let i = 0; i < cityNames.length; i++) {
+                let city = cityNames[i]
+                // if (i == 0 ) continue;
+                for (let j = 0; j < city.length; j++) console.log(city[j])
+            }
+
+            let z = 5
+            if (z > 5) 
+                console.log('större än FEM')
+            else if (z == 3) 
+                console.log('tre')
+            else 
+                console.log('...')
+            
+
+            switch (z) {
+                case 5:
+                    console.log('FEM')
+                    break
+                case 3:
+                    console.log('tre')
+                    break
+                default:
+                    console.log('...')
+                    break
+            }
+        </script>
+    </body>
+</html>
