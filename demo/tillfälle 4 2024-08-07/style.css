@@ -1,0 +1,10 @@
+div {
+    margin-right: 20px;
+    padding: 10px;
+    display: inline-grid;
+    column-gap: 10px;
+    border: 2px solid red;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
