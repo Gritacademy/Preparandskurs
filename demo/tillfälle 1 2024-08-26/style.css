@@ -1,0 +1,23 @@
+h1{  
+    /*
+    färg på texten
+
+    color:red;
+    */
+
+    font-size: 50px;
+    margin-left: 150px;
+    
+} 
+
+button {
+    background-color: green;
+}
+
+input{
+    border-color: purple;
+    border-width: 5px;
+    border-style: dotted;
+    padding: 20px;
+    margin:20px;
+}
