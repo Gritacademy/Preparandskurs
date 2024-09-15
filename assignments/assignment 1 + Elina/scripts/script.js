@@ -1,10 +1,13 @@
 alert("You cant divide us!")
 
-foo = 0
-bar = 0
+document.write ("<input style='background-color: green;'>")
+let foo = (20)
+let bar = (4)
+
+console.log(foo/bar)
 
 
-console.log
+
 
 /*h1{  
     /*
