@@ -1,0 +1,28 @@
+h1{
+color:rgb(249, 165, 70);
+font-size: 100px;
+text-decoration: wavy;
+font-weight: bold;
+}
+
+
+h2{
+    color:rgba(255, 145, 1, 0.63);
+    font-size: 60px;
+    font-style:italic;
+}
+
+
+    p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+    }
+
+
+    img {
+        max-width: 400px;
+        max-height: 300px;
+    }
+        
+
