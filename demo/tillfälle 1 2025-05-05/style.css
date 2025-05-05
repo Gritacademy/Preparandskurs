@@ -1,0 +1,18 @@
+/*
+h1 { 
+    color:red;
+    font-size: 100px;
+    font-style: italic;
+}
+*/
+
+
+h2{
+    background-color: blue;
+    padding: 30px;
+    margin: 10px;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
