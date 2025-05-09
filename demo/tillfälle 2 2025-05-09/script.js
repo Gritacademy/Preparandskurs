@@ -92,8 +92,12 @@ buttonDom.addEventListener( "click", ()=> {
     
 
 } )
-
-
+/*  input för olika typer  
+document.getElementById("nameInput").checked
+document.getElementById("nameInput").checked
+document.getElementById("nameInput").value
+document.getElementById("nameInput").valueAsNumber 
+*/
 
 
 
