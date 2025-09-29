@@ -1,0 +1,19 @@
+h1{
+    color: crimson;
+    font-style: italic;
+}
+
+h2{
+    background-color: aqua;
+    font-size: 40px;
+    margin: 20px;
+    padding: 10px;
+    
+    border-color: blue;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+body {
+  background-color: lightblue;
+}
