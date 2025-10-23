@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="number" />
+        <input type="number" />
+        <button>+</button>
+        <button onclick="addition(5,5)">-</button>
+        <h1>House</h1>
+        <p id="info"></p>
+        <button id="nextBtn">next housechecker</button>
+    </body>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+    <script>
+        /*  document.getElementsByTagName("button")[0].addEventListener("click", ()=> {
+            let tal1 = document.getElementsByTagName("input")[0].valueAsNumber
+            let tal2 = document.getElementsByTagName("input")[1].valueAsNumber
+            addition(tal1,tal2)
+        }) */
+
+        /* document.getElementsByTagName("button")[0].onclick = () => {
+            let tal1 = document.getElementsByTagName("input")[0].valueAsNumber
+            let tal2 = document.getElementsByTagName("input")[1].valueAsNumber
+            addition(tal1,tal2)
+        } */
+
+        document.getElementsByTagName("button")[0].onclick = function () {
+            let tal1 = document.getElementsByTagName("input")[0].valueAsNumber;
+            let tal2 = document.getElementsByTagName("input")[1].valueAsNumber;
+            addition(tal1, tal2);
+        };
+        //let foo = 5
+        {
+            let foo = 10;
+        }
+        //console.log(foo+"let");
+        //let foo = 5
+
+        {
+            const Alrik = 10;
+        }
+        //console.log(Alrik+"const");
+            
+        //var bar = 5
+        console.log(bar + "var");
+        {
+            var bar = 10;
+        }
+        //6) funktioner
+        let x = 5;
+
+        addition(6,6); //anropa/kalla/invokera funktionen addition()
+
+        function addition(tal, tal2) {
+            //defineringen av funktionen addition()
+            //  let tal1 = 5
+            //  let tal2 = 6
+            //tal1++
+            console.log(tal + tal2);
+            return tal + tal2; // som break fast den skickar tillbaka värdet också
+
+            //alert()
+            //console.log("dsafsdfsdfsdf");
+        }
+        /* for (let index = 0; index < array.length; index++) {
+            break            
+        } */
+
+
+        //retunerar
+
+        /*   let svar=""
+        for (let i = 0; i < 20; i++) {
+            let randomTal = Math.floor(Math.random()*5)+1
+            svar += "O" 
+            for (let i = 0; i < randomTal; i++) {
+                svar +="&nbsp"
+            }
+        }
+        console.log(svar);
+        
+        document.write(svar) */
+
+        // 7) Object
+        let foo = 1000000;
+        //foo = foo + foo // dubbla foo
+        //foo = foo * 2  // dubbla foo
+        foo = 2000000; // sätter foo till 2 milijoner
+
+        // index      0      1           2    3   4        5
+        let hus = [1000000, "yxgatan 5b", true, true, "Elina", "Bazola"];
+        hus[0] = 2000000;
+
+        // properties key value pairs   key:value
+        let house = {
+            price: 1000000,
+            adress: "yxgatan 5b",
+            sold: true,
+            apartment: true,
+            owner: "Elina",
+            nextInLine: ["Bazola", "Alrik", "Stina", "Dzemila"],
+            sell:  function () {
+                console.log("sold to " +house.nextInLine[0] + ", previous owner was:" + house.owner );
+                house.owner = house.nextInLine[0]
+            }   
+        };
+        house.price = 2000000;
+
+ 
+        let alriksConsole={
+            log: function (params) {
+                console.log(params)
+            } 
+        }
+        
+    
+
+      /*   
+      
+        console.log(); metod
+        alert(); funktion
+        
+        */
+
+        document.getElementById("info").innerHTML =
+            house.price +
+            "<br>" +
+            house.adress +
+            "<br>" +
+            house.sold +
+            "<br>" +
+            house.owner +
+            "<br>" +
+            house.nextInLine.join(" - ") +
+            "<br>";
+        //house["price"]= 3000000
+
+        document.getElementById("nextBtn").onclick = function () {
+            house.nextInLine.shift();
+            document.getElementById("info").innerHTML =
+                house.price +
+                "<br>" +
+                house.adress +
+                "<br>" +
+                house.sold +
+                "<br>" +
+                house.owner +
+                "<br>" +
+                house.nextInLine.join(" - ") +
+                "<br>";
+            console.log(house);
+        };
+
+        console.log(hus);
+        console.log(house);
+    </script>
+</html>
