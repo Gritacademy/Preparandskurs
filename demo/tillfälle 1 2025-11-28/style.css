@@ -1,0 +1,24 @@
+h1 {
+   /* color: red;
+    margin: 50px;  */
+    font-style: italic;
+}
+
+h2{
+    color: blue;
+    background-color: #418080;
+    padding: 30px;
+    margin: 20px;
+
+   /* border-radius: 50%;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: purple;*/
+}
+
+
+/* ctrl + alt + 7 ->  {      */
+/* altGr + 7 ->  {      */
+
+/* ctrl + alt + 0 ->  }      */
+/* altGr + 0 ->  }      */
