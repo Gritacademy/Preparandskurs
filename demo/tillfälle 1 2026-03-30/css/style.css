@@ -1,0 +1,22 @@
+body{
+    background-color: gold;
+}
+/*
+h1{
+    color: red;
+    background-color: aqua;
+    font-size: 100px;
+    border-style: double;
+    border-color: red;
+    border-width: 10px;
+}
+*/
+h2{
+    margin: 20px;
+    font-style: italic;
+}
+
+button{
+    background-color: blue;
+}
+/* ctrl + alt + 7 = {} */
