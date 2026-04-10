@@ -1,0 +1,9 @@
+body{
+    background-color: red;
+    color:rgb(7, 8, 9);
+}
+#resultat{
+    background-color: white;
+    padding: 50px;
+    font-size: 60px;
+}
