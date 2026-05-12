@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="javascript/script.js" defer="true"></script>
+    </head>
+    <body>
+        <style>
+            div {
+                padding: 20px;
+                margin: 10px;
+                background-color: aqua;
+            }
+        </style>
+        <!--     <script>
+        alert(123)
+    </script> -->
+        <h1>Kölista</h1>
+
+        <div id="display"></div>
+
+        <input type="text" id="name" />
+        <button
+            onclick="
+                queue.push(document.getElementById('name').value)
+                console.log(queue)
+                document.getElementById('display').innerHTML = '' //rensa
+                for (let i = 0; i < queue.length; i++)
+                    document.getElementById('display').innerHTML +=
+                        queue[i] + '<br>'
+            "
+        >
+            lägg till i kön
+        </button>
+
+        <br />
+        <button
+            onclick="
+                queue.shift()
+                console.log(queue)
+                document.getElementById('display').innerHTML = '' //rensa
+                for (let i = 0; i < queue.length; i++)
+                    document.getElementById('display').innerHTML +=
+                        queue[i] + '<br>'
+            "
+        >
+            ta bort den första i kön
+        </button>
+    </body>
+</html>
