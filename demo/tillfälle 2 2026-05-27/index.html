@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tillfälle 2</title>
+        <script src="script/script.js" defer></script>
+    </head>
+    <body>
+        <h1>SYSTEMBOLAGET</h1>
+        <label for="">restaurang ägare</label>
+        <input type="checkbox" id="owner" />
+        <br />
+        <label for="">ålder</label>
+        <input type="number" id="age" />
+        <br />
+        <button
+            onclick="
+                let businessOwner = document.getElementById('owner').checked
+
+                if (businessOwner) {
+                    document.getElementById('age').disabled = true
+                    console.log(
+                        'YES du är en vuxen person du äger en restaurang bro!!',
+                    )
+                } else if (age >= 20) {
+                    console.log('YES du är en vuxen person')
+                } else {
+                    console.log('No du är ett barn')
+                }
+            "
+        >
+            check my age
+        </button>
+    </body>
+</html>
