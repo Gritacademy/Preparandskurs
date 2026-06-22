@@ -1,0 +1,23 @@
+h1 {
+    color:red;
+    margin: 20px;
+    padding:10px;
+    background-color: cyan;
+    
+}
+/*
+h2 {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ */
+
+h2 {
+    color: green;
+}
+
+img {
+    border-color: yellow ;
+    border-style: dashed;
+    border-width: 20px ;
+}
